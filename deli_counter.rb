@@ -1,18 +1,20 @@
 # Write your code here.katz_deli = []
 
-def line(katz_deli)
-    if katz_deli.length > 0 
-      list =[]
-        i = 0
-      while katz_deli.length >= i + 1
-        list.push("#{i + 1}. #{katz_deli[i]}")
-        i += 1
-      end
-      puts "The line is currently: #{list.join(" ")}"
-    else
-      puts "The line is currently empty."
-    end
-end
+#def line(katz_deli)
+ #   if katz_deli.length > 0 
+  #    list =[]
+   #     i = 0
+    #  while katz_deli.length >= i + 1
+     #   list.push("#{i + 1}. #{katz_deli[i]}")
+      #  i += 1
+      #end
+      #puts "The line is currently: #{list.join(" ")}"
+    #else
+     # puts "The line is currently empty."
+    #end
+#end
+
+
 
 def take_a_number(katz_deli, name)
     katz_deli.push(name)
